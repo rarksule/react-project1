@@ -1,0 +1,204 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+  }
+
+  .header .logo {
+    font-size: 45px;
+    font-family: 'Sriracha', cursive;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+
+  .nav-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #ffffff;
+      margin-right: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: #000;
+      padding: 35px 20px;
+    }
+
+    /* CSS for main element */
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 520px;
+     background-image:url('../images/white.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .intro h1 {
+      font-family: sans-serif;
+      font-size: 60px;
+      color: #000000;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .intro p {
+      font-size: 20px;
+      color: #040000;
+      text-transform: uppercase;
+      margin: 20px 0;
+    }
+    
+    .home{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 80px;
+    }
+    .welcome{
+      background-color: rgb(223, 217, 208);
+    }
+
+    /* gallery */
+    .gallery {
+        display:flex;
+        font-size:20px;
+        align-items: center;
+        justify-content: center;
+        
+        padding: 0px;
+      }
+
+    /*  about us */
+
+    .about us {
+        font-size: 20px;
+        color: #333333;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+      .About
+      {
+        text-align:center;
+        display: block;
+      }
+      /* contact */
+    .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    }
+    .bottom_text{
+      
+       margin-bottom: 0; 
+        width: 100%;
+        border-top:solid 1px #000000;
+        margin: auto;
+        padding: 20px 20px;
+        
+    }
+    .bottom_text span,
+    .bottom_text a{
+      font-size: 14px;
+      font-weight: 300;
+      color: #000000;
+      float: right;
+      padding-right: 20px;
+      text-decoration: none;
+    }
+    .bottom_text a:hover{
+    opacity: 1;
+    text-decoration: underline;
+    }
+    .bottom_text a{
+    margin-right: 10px;
+    } 
+     
+    /* contact */
+    .contact-form {
+      width: 80%;
+        margin:40px;
+        border: solid 1px black;
+        
+      display: flex;
+      height: 300px;
+    }
+  
+    
+    .left {
+      flex: 1;
+      padding: 20px;
+    }
+    
+    .right {
+      flex: 1;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    input[type="text"],
+    textarea {
+      width: 90%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    textarea {
+      height: 150px;
+    }
+    
+    .checkbox-label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    .submit-button {
+      display: block;
+      background-color: rgb(0, 0, 0);
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    
+    .submit-button:hover {
+      background-color: #110df0;
+    }
+
+    .image-galery {
+      max-width: 1260px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      margin: 30px 0;
+    }
+    
+    .image-grid img {
+      width: 100%;
+      padding: 10px;
+    }
